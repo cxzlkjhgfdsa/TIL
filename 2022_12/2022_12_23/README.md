@@ -142,3 +142,48 @@ select * from member where member_id="memberA" for update ;
 
 -   애플리케이션에서 DB 트랜잭션을 적용하려면 서비스 계층이 매우 복잡해짐
 -   커넥션을 유지하는 코드를 변경하는것도 어려움
+
+<details>
+    <summary>기존 예외 포함</summary>
+    
+    13:10:45.626 [Test worker] INFO hello.jdbc.exception.basic.UncheckedAppTest - 
+    ex
+    hello.jdbc.exception.basic.UncheckedAppTest$RuntimeSQLException: 
+    java.sql.SQLException: ex
+    at 
+    hello.jdbc.exception.basic.UncheckedAppTest$Repository.call(UncheckedAppTest.ja
+    va:61)
+    at 
+    hello.jdbc.exception.basic.UncheckedAppTest$Service.logic(UncheckedAppTest.java
+    :45)
+    at 
+    hello.jdbc.exception.basic.UncheckedAppTest$Controller.request(UncheckedAppTest
+    .java:35)
+    at 
+    hello.jdbc.exception.basic.UncheckedAppTest.printEx(UncheckedAppTest.java:24)
+    Caused by: java.sql.SQLException: ex
+    at 
+    hello.jdbc.exception.basic.UncheckedAppTest$Repository.runSQL(UncheckedAppTest.
+    java:66)
+    at 
+    hello.jdbc.exception.basic.UncheckedAppTest$Repository.call(UncheckedAppTest.ja
+    va:59)
+
+</details>
+
+<details>
+    <summary>기존 예외 미포함</summary>
+    
+    [Test worker] INFO hello.jdbc.exception.basic.UncheckedAppTest - ex
+    hello.jdbc.exception.basic.UncheckedAppTest$RuntimeSQLException: null
+    at 
+    hello.jdbc.exception.basic.UncheckedAppTest$Repository.call(UncheckedAppTest.ja
+    va:61)
+    at 
+    hello.jdbc.exception.basic.UncheckedAppTest$Service.logic(UncheckedAppTest.java
+    :45)
+    
+</details>
+
+-   예외를 포함하지 않으면 기존에 발생한 SQLException 과 스택 트레이스를 확인할 수 없다
+-   DB에서 발생한 예외를 확인할 수 없는 심각한 문제이다
