@@ -180,3 +180,6 @@ user=SA
 -   DriverManagerDataSource -> HikariDataSource 로 변경해도 MemberRepositoryV1 코드는 전혀 변경하지 않아도된다
 -   MemberRepositoryV1 는 DataSource 인터페이스에만 의존하기 때문
 -   DI+OCP를 준수한다
+
+</br>
+<b>인프런 김영한님 강의 참고</b>

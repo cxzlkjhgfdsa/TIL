@@ -187,3 +187,6 @@ select * from member where member_id="memberA" for update ;
 
 -   예외를 포함하지 않으면 기존에 발생한 SQLException 과 스택 트레이스를 확인할 수 없다
 -   DB에서 발생한 예외를 확인할 수 없는 심각한 문제이다
+
+</br>
+<b>인프런 김영한님 강의 참고</b>

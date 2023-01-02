@@ -162,3 +162,6 @@ void execute(String sql) throws DataAccessException;
 ### <b>예외 포함 스택 트레이스</b>
 
 예외를 전환할 때는 꼭 기존 예외를 포함해야한다. 그렇지 않으면 스택 트레이스를 확인할 때 심각한 문제 발생
+
+</br>
+<b>인프런 김영한님 강의 참고</b>

@@ -117,3 +117,6 @@ ApplicationContext applicationContext = new AnnotationConfigApplicationContext(A
 -   스프링의 다양한 형태의 설정정보는 BeanDefinition 을 추상화해서 사용한다
 -   BeanDefinition을 직접 생성해 스프링 컨테이너에 등록 가능하나 사용할일은 거의 없다
     참고 코드 : [BeanDefinition](./beandefinition/BeanDefinitionTest.java)
+
+</br>
+<b>인프런 김영한님 강의 참고</b>

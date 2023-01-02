@@ -159,3 +159,6 @@ implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.5.6'
 build.gradle에 다음과 같이 추가
 
 -   쿼리파라미터 로그는 개발단계에서는 편하게 사용해도 되나, 운영단계에서는 테스트 해보고 사용해야한다
+
+</br>
+<b>인프런 김영한님 강의 참고</b>

@@ -242,3 +242,6 @@ pubic class FixDiscountPolicy implements DiscountPolicy{}
 
 -   DiscountPolicy가 Map에 주입을 받을 때 어떤 빈들이 주입될지 각 빈의 이름은 무엇인지 여러명에서 개발할 때는 알기 어려움
 -   따라서 이런 경우 수동 빈 등록을 하거나 자동으로 등록할 경우 특정 패키지에 묶어두는 것이 좋음
+
+</br>
+<b>인프런 김영한님 강의 참고</b>

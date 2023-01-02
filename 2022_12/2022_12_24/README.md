@@ -192,3 +192,6 @@ spring.datasource.password=""
 -   스프링 부트는 적절한 트랜잭션 매니저를 자동으로 스프링 빈에 등록
 -   자동으로 등록되는 이름 transcationManager
 -   개발자가 직접 등록시 자동으로 등록하지 않음
+
+</br>
+<b>인프런 김영한님 강의 참고</b>

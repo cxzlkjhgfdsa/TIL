@@ -37,3 +37,6 @@ private final MemberRepository memberRepository = new MemoryMemberRepository();
 ```
 
 위 코드를 봤을 때 역할 (memberRepository) 에만 의존한 것이 아닌 구현 (MemoryMemberRepository) 에도 의존하고 있다.
+
+</br>
+<b>인프런 김영한님 강의 참고</b>
