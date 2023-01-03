@@ -10,6 +10,7 @@
 
 </br>
 main/resources/application.yml
+
 ```
 spring:
     datasource:
