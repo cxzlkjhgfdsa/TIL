@@ -153,6 +153,7 @@ public class MemberRepositoryTest {
 
 </br>
 <b>쿼리 파라미터 로그 남기기</b>
+
 ```
 implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.5.6'
 ```
