@@ -93,7 +93,7 @@ public List<Order> findAllByString(OrderSearch orderSearch) {
 
 -   JPQL 쿼리를 문자로 생성시 매우 번거롭고, 실수로 인한 버그가 충분히 발생 가능하다
 
-2. <b>JPA Critria로 처리</b>
+2. <b>JPA Criteria로 처리</b>
 
 ```
 public List<Order> findAllByCriteria(OrderSearch orderSearch) {
