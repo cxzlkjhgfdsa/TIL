@@ -149,3 +149,7 @@
 -   OrderService
     -   OrderService : 핵심 비즈니스 로직
     -   OrderQueryService : 화면이나 API에 맞춘 서비스 (주로 읽기 전용 트랜잭션)
+
+
+</br>
+<b> 인프런 김영한님 강의 참고 </b>
